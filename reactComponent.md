@@ -3,7 +3,7 @@
  - Por norma general, cada componente (clase) será considerado un módulo cuyo default export es la propia clase.
  - El constructor siempre será la primera función **NO ESTÁTICA** del componente y el render siempre será la última función de este.
 
-``` javascript 1.8
+``` javascript
 import React from 'react';
 
 export default class Input extends React.Component {
@@ -21,7 +21,7 @@ export default class Input extends React.Component {
  - Denominaremos las funciones y propiedades privadas con un guión bajo (_) precediendo al nombre de la propiedad o función.
  - Las funciones y propiedades privadas deberían estar juntas y aparecer por encima de las públicas (aplicable tanto para estáticas como para no estáticas).
  
-``` javascript 1.8
+``` javascript
 import React from 'react';
 
 export default class Input extends React.Component {
@@ -61,7 +61,7 @@ export default class Input extends React.Component {
  - Estas funciones deberían estar ordenadas en el orden en el que ocurren (https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)
  
 
-``` javascript 1.8
+``` javascript
 import React from 'react';
 
 export default class Input extends React.Component {
