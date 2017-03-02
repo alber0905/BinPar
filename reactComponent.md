@@ -33,7 +33,7 @@ export default class Input extends React.Component {
     }
     
     static propTypes = {
-        value: Reacy.PropTypes.string
+        value: React.PropTypes.string
     };
 
     constructor(props) {
@@ -73,7 +73,7 @@ export default class Input extends React.Component {
     }
     
     static propTypes = {
-        value: Reacy.PropTypes.string
+        value: React.PropTypes.string
     };
     
     constructor(props) {
