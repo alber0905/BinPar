@@ -1,7 +1,7 @@
 # Cómo convertir un vídeo a GIF usando ffmpeg
 
 ### Nunca más te vuelvas loco buscando cómo hacer un GIF de tu video favorito:
-![balbalablalaablalbalb](https://github.com/BinPar/BinPar/blob/master/balbalablalaablalbalb.gif)
+![balbalablalaablalbalb](https://github.com/BinPar/BinPar/blob/master/resources/balbalablalaablalbalb.gif)
 
 ## 1º - Creamos la paleta de colores
 
