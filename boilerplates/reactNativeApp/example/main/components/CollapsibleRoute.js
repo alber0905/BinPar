@@ -3,7 +3,7 @@ import {StyleSheet, Text, View, Platform, Picker, Modal} from 'react-native';
 import Dimensions from 'Dimensions';
 import { COLORS, FONT_SIZES } from '../utils/constants';
 import { BlurView } from 'react-native-blur';
-import { NavigationStyles } from '@exponent/ex-navigation';
+import { NavigationStyles } from '@expo/ex-navigation';
 import Button from './Button';
 import CustomText from './CustomText';
 

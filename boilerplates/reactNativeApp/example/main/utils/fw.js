@@ -1,5 +1,5 @@
-import Meteor from 'react-native-meteor';
-import { SERVER_URL } from './misc';
+//import Meteor from 'react-native-meteor';
+//import { SERVER_URL } from './misc';
 
 class FW {
 
@@ -16,7 +16,7 @@ class FW {
 		return new Promise((resolve, reject)=> {
 			try {
 				//conexión a meteor
-				Meteor.connect(`${SERVER_URL.replace('http', 'ws')}websocket`);
+				/*Meteor.connect(`${SERVER_URL.replace('http', 'ws')}websocket`);
 				Meteor.ddp.on('connected', () => {
 					console.log('Meteor connected! Calling setupBinParAPI');
 					if(!this._ready && !this._settingup) {
@@ -114,7 +114,17 @@ class FW {
 					} else {
 						console.log('[BinPar FW] You are calling setup when the framework is already up or the setup progress is still running');
 					}
-				});
+				});*/
+				this._settingup = false;
+				this._ready = true;
+				if (this._readyResolvers.length) {
+					let resolver;
+					while (resolver = this._readyResolvers.shift()) {
+						resolver(true);
+					}
+				}
+				this._readyRejecters = [];
+				return resolve(true);
 			}
 			catch (err) {
 				this._settingup = false;

@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 	basicInput: {
 		height: 25,
 		paddingLeft: 2.5,
-		fontFamily: 'WorkSans-Regular',
+		//fontFamily: 'WorkSans-Regular',
 		color: COLORS.DARK
 	},
 	icon: {

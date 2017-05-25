@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
 		alignItems: 'center'
 	},
 	title: {
-		fontFamily: 'Rotis Serif',
 		color: COLORS.WHITE,
 	},
 	subtitle: {
@@ -49,17 +48,24 @@ export default class SplashScreen extends Component {
 		this.onLayout = this.onLayout.bind(this);
 	}
 
+	componentWillUnmount() {
+		this._unmounted = true;
+	}
+
 	onLayout(e) {
+		if(this._unmounted) {
+			return;
+		}
 		let viewWidth = e.nativeEvent.layout.width;
-		let titleFont = viewWidth * 0.16;
-		this.setState({titleFont: titleFont, subtitleFont: titleFont * 0.325});
+		let titleFont = viewWidth * 0.12;
+		this.setState({titleFont: titleFont, subtitleFont: titleFont * 0.425});
 	}
 
 	render() {
 		return (
 			<View style={styles.wrapper} onLayout={this.onLayout} >
-				<Text style={[styles.title, {fontSize: this.state.titleFont}]}>familiafacil</Text>
-				<Text style={[styles.subtitle, {fontSize: this.state.subtitleFont}]}>personal doméstico de confianza</Text>
+				<Text style={[styles.title, {fontSize: this.state.titleFont}]}>SplashScreen</Text>
+				<Text style={[styles.subtitle, {fontSize: this.state.subtitleFont}]}>splash subtitle or something</Text>
 				<Loading viewStyle={styles.loading} color={COLORS.WHITE} size="small"/>
 			</View>
 		);

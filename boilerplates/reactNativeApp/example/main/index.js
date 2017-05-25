@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { createRouter, NavigationProvider, StackNavigation} from '@exponent/ex-navigation';
+import { createRouter, NavigationProvider, StackNavigation} from '@expo/ex-navigation';
 import {COLORS} from './utils/constants';
 
 /** VIEWS **/

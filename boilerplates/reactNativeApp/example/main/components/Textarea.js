@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
 		backgroundColor: COLORS.WHITE,
 		color: COLORS.DARK,
 		fontSize: FONT_SIZES.S,
-		fontFamily: 'WorkSans-Regular'
+		// fontFamily: 'WorkSans-Regular'
 	},
 	errorMessage: {
 		color: COLORS.RED,

@@ -11,8 +11,6 @@ import Validations from "../utils/validations";
 import Form from "../components/Form";
 import SimpleInput from "../components/SimpleInput";
 import Separator from "../components/Separator";
-import {facebookLogin} from "../utils/fbUtils";
-import Meteor from "react-native-meteor";
 import Loading from "../components/Loading";
 import {Router} from "../index";
 
@@ -111,7 +109,7 @@ export default class Login extends Component {
 	static route = {
 		navigationBar: {
 			backgroundColor: COLORS.WHITE,
-			title: '',
+			title: 'Login',
 			tintColor: COLORS.MAIN_BLUE
 		}
 	};
@@ -124,18 +122,15 @@ export default class Login extends Component {
 		};
 
 		this._onSubmitLogin = this._onSubmitLogin.bind(this);
+		this._refForm = this._refForm.bind(this);
 		this.forgotPassword = this.forgotPassword.bind(this);
 		this.tryLogin = this.tryLogin.bind(this);
 		this.loginWithFacebook = this.loginWithFacebook.bind(this);
 		this.goToSignUp = this.goToSignUp.bind(this);
 	}
 
-	forgotPassword() {
-		this.props.navigator.push(Router.getRoute('rememberPassword'));
-	}
-
-	tryLogin() {
-		this.refs.loginForm && this.refs.loginForm._goToNextOrSubmit();
+	_refForm(el) {
+		this._form = el;
 	}
 
 	_onSubmitLogin(formData, cleanForm) {
@@ -143,100 +138,70 @@ export default class Login extends Component {
 		this._logginTimer = setTimeout(() => {
 			this.setState({loggingIn: false});
 		}, 10000);
-		Meteor._startLoggingIn();
-		Meteor.call('login', {
-			email: formData.email,
-			passwordFF: formData.password,
-			lang: I18n.locale,
-			customFFLogin: true
-		}, (err, res) => {
-			Meteor._endLoggingIn();
-			if (err) {
-				console.warn('[CALL users.FFLogin]', err);
-				//show popup indicando que si está registrado con otra cuenta de correo
-				Alert.alert(I18n.t('auth_error'), err.reason);
-			}
-			else {
-				cleanForm();
-				Meteor._handleLoginCallback(err, res);
-			}
-			clearTimeout(this._logginTimer);
-			this._logginTimer = null;
-			this.setState({loggingIn: false});
-		});
+	}
+
+	forgotPassword() {
+		// this.props.navigator.push(Router.getRoute('rememberPassword'));
+	}
+
+	tryLogin() {
+		this._form && this._form._goToNextOrSubmit();
 	}
 
 	loginWithFacebook() {
 		this.setState({facebookLoggingIn: true});
-		facebookLogin().then((data) => {
-			Meteor._startLoggingIn();
-			Meteor.call('login', {email: btoa(data.email), customFbLogin: true}, (err, res) => {
-				Meteor._endLoggingIn();
-				if (err) {
-					console.warn('[CALL users.loginWithFacebook]', err);
-					if (err.error === '0001') {
-						//show popup indicando que si está registrado con otra cuenta de correo
-						Alert.alert(I18n.t('error_email_not_found_title'), I18n.t('error_email_not_found_text'));
-					}
-				}
-				else {
-					Meteor._handleLoginCallback(err, res);
-				}
-			});
-		}).catch((err) => {
-			console.log(err);
-		}).then(() => {
+		setTimeout(() => {
 			this.setState({facebookLoggingIn: false});
-		});
+		}, 1000);
 	}
 
 	goToSignUp() {
-		this.props.navigator.push(Router.getRoute('signUp', {signupType: this.props.route.params.title === 'find_job' ? 'candidate' : 'family'}));
+		this.props.navigator.push(Router.getRoute('signUp'));
 	}
 
 	render() {
 		return (
 			<Scene>
 				<ScrollView contentContainerStyle={styles.content}>
-					<CustomText style={styles.title}>{I18n.t(this.props.route.params.title)}</CustomText>
+					<CustomText style={styles.title}>{I18n.t('login.title')}</CustomText>
 					<Panel>
-						<Form ref="loginForm" noScroll={true} onSubmit={this._onSubmitLogin}>
+						<Form ref={this._refForm} noScroll={true} onSubmit={this._onSubmitLogin}>
 							<SimpleInput exportDataKey="email"
 										 icon={<Icon name="user" size={20} color={COLORS.MAIN_BLUE}/>} iconPadding={30}
-										 placeholder={I18n.t('email')} type="email" autoCorrect={false}
+										 placeholder={I18n.t('login.email')} type="email" autoCorrect={false}
 										 autoCapitalize="none" validationRules={[Validations.isRequired]}/>
 							<SimpleInput exportDataKey="password" showPassword={true}
 										 icon={<Icon name="lock" size={20} color={COLORS.MAIN_BLUE}/>} iconPadding={30}
-										 placeholder={I18n.t('password')} type="password"
+										 placeholder={I18n.t('login.password')} type="password"
 										 validationRules={[Validations.isRequired]}/>
 						</Form>
 						<Button style={styles.loginButton} onPress={this.tryLogin}>
-							<CustomText style={styles.loginButtonText}>{I18n.t('login_button_text')}</CustomText>
+							<CustomText style={styles.loginButtonText}>{I18n.t('login.button_text')}</CustomText>
 						</Button>
 						<Button style={styles.forgotPasswordButton} onPress={this.forgotPassword}>
-							<CustomText style={styles.forgotPasswordText}>{I18n.t('forgot_password')}</CustomText>
+							<CustomText style={styles.forgotPasswordText}>{I18n.t('login.forgot_password')}</CustomText>
 						</Button>
-						<Separator style={styles.separator} text={I18n.t('or')}/>
+						<Separator style={styles.separator} text={I18n.t('login.or')}/>
 						<Button style={styles.facebookButton} onPress={this.loginWithFacebook}>
 							<Icon name="facebook" size={20} color={COLORS.WHITE}/><CustomText
-							style={styles.facebookText}>{I18n.t('login_with_facebook')}</CustomText>
+							style={styles.facebookText}>{I18n.t('login.with_facebook')}</CustomText>
 						</Button>
 					</Panel>
 					<Panel style={styles.panelSignUp}>
-						<CustomText style={styles.dontHaveAcc}>{I18n.t('dont_have_an_account')}</CustomText>
+						<CustomText style={styles.dontHaveAcc}>{I18n.t('login.dont_have_an_account')}</CustomText>
 						<Button style={styles.signUpButton} onPress={this.goToSignUp}>
-							<CustomText style={styles.signUpText}>{I18n.t('register')}</CustomText>
+							<CustomText style={styles.signUpText}>{I18n.t('login.register')}</CustomText>
 						</Button>
 					</Panel>
 				</ScrollView>
 				{ this.state.loggingIn ? (
 						<Loading viewStyle={styles.loader}>
-							<CustomText style={styles.loaderText}>{I18n.t('logging_in')}...</CustomText>
+							<CustomText style={styles.loaderText}>{I18n.t('login.logging_in')}...</CustomText>
 						</Loading>
 					) : null }
 				{ this.state.facebookLoggingIn ? (
 						<Loading viewStyle={styles.loader}>
-							<CustomText style={styles.loaderText}>{I18n.t('logging_in_with_facebook')}...</CustomText>
+							<CustomText style={styles.loaderText}>{I18n.t('login.logging_in_with_facebook')}...</CustomText>
 						</Loading>
 					) : null }
 			</Scene>

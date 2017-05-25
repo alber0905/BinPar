@@ -10,19 +10,19 @@ const isNumeric = (val) => {
 	if(!val) {
 		return {
 			OK: true,
-			error: I18n.t('number_validation_error')
+			error: I18n.t('validations.number_validation_error')
 		};
 	}
 	let stringVal = val && val.toString();
 	return {
 		OK: !(val instanceof Array) && ((stringVal - parseFloat(stringVal) + 1) >= 0),
-		error: I18n.t('number_validation_error')
+		error: I18n.t('validations.number_validation_error')
 	}
 };
 const isValidDate = (value) => {
 	return {
 		OK: Object.prototype.toString.call(value) === "[object Date]" && !isNaN(value.getTime()),
-		error: I18n.t('this_is_not_a_valid_date')
+		error: I18n.t('validations.this_is_not_a_valid_date')
 	};
 };
 
@@ -44,27 +44,27 @@ export default {
 		if(type === '[object Number]'){
 			return {
 				OK: val != null,
-				error: I18n.t('required_field')
+				error: I18n.t('validations.required_field')
 			};
 		}
 		else {
 			return {
 				OK: !!val,
-				error: I18n.t('required_field')
+				error: I18n.t('validations.required_field')
 			};
 		}
 	},
 	isEmail: (val) => {
 		return {
 			OK: !val || _emailRegExp.test(val),
-			error: I18n.t('email_address_validation_error')
+			error: I18n.t('validations.email_address_validation_error')
 		};
 	},
 	isNumeric,
 	isPhone: (value) => {
 		return {
 			OK: !value || value.length === 9,
-			error: I18n.t('phone_number_validation_error')
+			error: I18n.t('validations.phone_number_validation_error')
 		}
 	},
 	shouldMatchElement: function(val, data) {
@@ -72,7 +72,7 @@ export default {
 		if(inputs.exportDataKeyToMatch){
 			return {
 				OK: val === data[inputs.exportDataKeyToMatch],
-				error: inputs.errorMessage || I18n.t('value_should_match_element')
+				error: inputs.errorMessage || I18n.t('validations.value_should_match_element')
 			}
 		}
 		else{
@@ -83,7 +83,7 @@ export default {
 		}
 	},
 	isNIEValid(dni) {
-		let res = {OK: false, error: I18n.t('error_validation_nie')};
+		let res = {OK: false, error: I18n.t('validations.error_validation_nie')};
 		if(!dni) {
 			return res;
 		}
@@ -115,13 +115,13 @@ export default {
 		}
 		return {
 			OK: valid,
-			error: I18n.t('error_one_province_at_least')
+			error: I18n.t('validations.error_one_province_at_least')
 		};
 	},
 	radioRequired(value) {
 		return {
 			OK: value !== -1,
-			error: I18n.t('error_should_select_one')
+			error: I18n.t('validations.error_should_select_one')
 		};
 	},
 	checkButtonsRequired(value) {
@@ -130,31 +130,31 @@ export default {
 		});
 		return {
 			OK: valid,
-			error: I18n.t('error_should_select_at_least_one')
+			error: I18n.t('validations.error_should_select_at_least_one')
 		};
 	},
 	textAreaRequired(value) {
 		return {
 			OK: !!value,
-			error: I18n.t('required_field')
+			error: I18n.t('validations.required_field')
 		};
 	},
 	mainImageRequired(value) {
 		return {
 			OK: !!value.mainImage && (!!value.mainImage.uri || !!value.mainImage._base64),
-			error: I18n.t('main_image_required')
+			error: I18n.t('validations.main_image_required')
 		};
 	},
 	addressRequired(value) {
 		return {
 			OK: !!value.formattedAddress,
-			error: I18n.t('address_required')
+			error: I18n.t('validations.address_required')
 		};
 	},
 	postalCodeRequired(value) {
 		return {
 			OK: !!value.postalCode,
-			error: I18n.t('postal_code_required')
+			error: I18n.t('validations.postal_code_required')
 		}
 	},
 	shouldBeLowerThanElement(value, data) {
@@ -171,7 +171,7 @@ export default {
 			}
 			return {
 				OK: value < data[options.exportDataKeyOtherElement],
-				error: options.errorMessage || I18n.t('value_should_be_lower_than')
+				error: options.errorMessage || I18n.t('validations.value_should_be_lower_than')
 			}
 		}
 		else{
@@ -189,7 +189,7 @@ export default {
 			}
 			return {
 				OK: value > data[options.exportDataKeyOtherElement],
-				error: options.errorMessage || I18n.t('value_should_be_greater_than')
+				error: options.errorMessage || I18n.t('validations.value_should_be_greater_than')
 			}
 		}
 		else{
@@ -202,7 +202,7 @@ export default {
 	dateShouldBeLowerThanToday(value) {
 		return {
 			OK: value < new Date(),
-			error: I18n.t('date_should_be_lower_than_today')
+			error: I18n.t('validations.date_should_be_lower_than_today')
 		}
 	},
 	positiveNumber(value) {
@@ -212,7 +212,7 @@ export default {
 		}
 		return {
 			OK: value > 0,
-			error: I18n.t('number_must_be_greather_than_zero')
+			error: I18n.t('validations.number_must_be_greather_than_zero')
 		}
 	},
 	isValidDate,
@@ -223,19 +223,19 @@ export default {
 		}
 		return {
 			OK: new Date().getTime() - value.getTime() > 567993600000,
-			error: I18n.t('must_be_over_18_years')
+			error: I18n.t('validations.must_be_over_18_years')
 		}
 	},
 	passwordAtLeastSixChars(value) {
 		if(value) {
 			return {
 				OK: value.length > 5,
-				error: I18n.t('password_at_least_six_chars')
+				error: I18n.t('validations.password_at_least_six_chars')
 			};
 		} else {
 			return {
 				OK: false,
-				error: I18n.t('password_at_least_six_chars')
+				error: I18n.t('validations.password_at_least_six_chars')
 			};
 		}
 	}

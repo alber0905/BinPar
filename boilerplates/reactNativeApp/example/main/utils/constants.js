@@ -33,19 +33,36 @@ export const SCREEN_WIDTH = width;
 export const SCREEN_HEIGHT = height;
 export const OFFER_PUBLICATION_DAYS = 30;
 
-const MAX_SCREEN_WIDTH_FOR_FONTS = 500;
+// Calculating ratio from iPhone breakpoints
+const RATIOX = width < 375 ? (width < 320 ? 0.75 : 0.875) : 1 ;
+const RATIOY = height < 568 ? (height < 480 ? 0.75 : 0.875) : 1 ;
+
+// We set our base font size value
+const BASE_UNIT = 16;
+
+// We're simulating EM by changing font size according to Ratio
+const UNIT = BASE_UNIT * RATIOX;
+
+// We add an em() shortcut function
+export function em(value) {
+	return UNIT * value;
+}
+
+//Esto es completamente opcional, se puede usar la función em directamente en los Styles, lo he dejado por retrocompatibilidad
 export const FONT_SIZES = {
-	XXXXXL: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 8) / 100,
-	XXXXL: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 7) / 100,
-	XXXL: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 6) / 100,
-	XXL: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 5.5) / 100,
-	XL: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 5) / 100,
-	L: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 4.5) / 100,
-	M: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 4) / 100,
-	S: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 3.5) / 100,
-	XS: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 3) / 100,
-	XXS: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 2.5) / 100,
-	XXXS: Math.round(Math.min(SCREEN_WIDTH, MAX_SCREEN_WIDTH_FOR_FONTS) * 1.5) / 100
+	XXXXXL: em(1.6),
+	XXXXL: em(1.5),
+	XXXL: em(1.4),
+	XXL: em(1.3),
+	XL: em(1.2),
+	L: em(1.1),
+	M: em(1),
+	S: em(0.9),
+	XS: em(0.8),
+	XXS: em(0.7),
+	XXXS: em(0.6),
+	XXXXS: em(0.5),
+	XXXXXS: em(0.4),
 };
 
 export const STYLES = StyleSheet.create({
@@ -116,192 +133,8 @@ export const STYLES = StyleSheet.create({
 	}
 });
 
-export const PLAN_TYPES = {
-	'3': 'company_access_plan',
-	'10': 'social_sec_tramit',
-	'12': 'candidate_report',
-	'13': 'agency_service',
-	'14': 'paysheets_monthly_service',
-	'15': 'subscription_access_plan',
-	'1': 'regular_access_plan'
-};
-
-export const EVENTS = {
-	CHAT_ITEM: 'badge.chatItem::',
-	NAV_BAR_SELECTOR: 'badge.navBarSelector::',
-	OFFER_CARD: 'badge.offerCard::',
-	CHAT_TAB: 'badge.chatTab::'
-};
-export const NAV_BAR_IDS = {
-	CANDIDATE_VIEW_JOBS: 'candidate.viewJobs',
-	FAMILY_MY_OFFERS: 'family.myOffers',
-	FAMILY_OFFER_VIEW: 'family.offerView'
-};
-
 //MAGIC NUMBERS
 export const MILLISECONDS_DAY = 86400000;
 
 export const REMOVE_JUNK_REGEXP = /[\s\-_\.\(\)]/g;
 export const VALID_INFO_REGEXP = /[0-9]{9}|arroba|@|facebook|www|https?:\/\//gi;
-
-export const API_KEY = 'AIzaSyDZW7Gb5k6yTCjFNYQ8AhyE0vYSXWGD-08';
-export const CUSTOM_MAP_STYLE = [
-	{
-		"elementType": "geometry",
-		"stylers": [
-			{
-				"color": "#f5f5f5"
-			}
-		]
-	},
-	{
-		"elementType": "labels.icon",
-		"stylers": [
-			{
-				"visibility": "off"
-			}
-		]
-	},
-	{
-		"elementType": "labels.text.fill",
-		"stylers": [
-			{
-				"color": "#616161"
-			}
-		]
-	},
-	{
-		"elementType": "labels.text.stroke",
-		"stylers": [
-			{
-				"color": "#f5f5f5"
-			}
-		]
-	},
-	{
-		"featureType": "administrative.land_parcel",
-		"elementType": "labels.text.fill",
-		"stylers": [
-			{
-				"color": "#bdbdbd"
-			}
-		]
-	},
-	{
-		"featureType": "poi",
-		"elementType": "geometry",
-		"stylers": [
-			{
-				"color": "#eeeeee"
-			}
-		]
-	},
-	{
-		"featureType": "poi",
-		"elementType": "labels.text.fill",
-		"stylers": [
-			{
-				"color": "#757575"
-			}
-		]
-	},
-	{
-		"featureType": "poi.park",
-		"elementType": "geometry",
-		"stylers": [
-			{
-				"color": "#e5e5e5"
-			}
-		]
-	},
-	{
-		"featureType": "poi.park",
-		"elementType": "labels.text.fill",
-		"stylers": [
-			{
-				"color": "#9e9e9e"
-			}
-		]
-	},
-	{
-		"featureType": "road",
-		"elementType": "geometry",
-		"stylers": [
-			{
-				"color": "#ffffff"
-			}
-		]
-	},
-	{
-		"featureType": "road.arterial",
-		"elementType": "labels.text.fill",
-		"stylers": [
-			{
-				"color": "#757575"
-			}
-		]
-	},
-	{
-		"featureType": "road.highway",
-		"elementType": "geometry",
-		"stylers": [
-			{
-				"color": "#dadada"
-			}
-		]
-	},
-	{
-		"featureType": "road.highway",
-		"elementType": "labels.text.fill",
-		"stylers": [
-			{
-				"color": "#616161"
-			}
-		]
-	},
-	{
-		"featureType": "road.local",
-		"elementType": "labels.text.fill",
-		"stylers": [
-			{
-				"color": "#9e9e9e"
-			}
-		]
-	},
-	{
-		"featureType": "transit.line",
-		"elementType": "geometry",
-		"stylers": [
-			{
-				"color": "#e5e5e5"
-			}
-		]
-	},
-	{
-		"featureType": "transit.station",
-		"elementType": "geometry",
-		"stylers": [
-			{
-				"color": "#eeeeee"
-			}
-		]
-	},
-	{
-		"featureType": "water",
-		"elementType": "geometry",
-		"stylers": [
-			{
-				"color": "#c9c9c9"
-			}
-		]
-	},
-	{
-		"featureType": "water",
-		"elementType": "labels.text.fill",
-		"stylers": [
-			{
-				"color": "#9e9e9e"
-			}
-		]
-	}
-];

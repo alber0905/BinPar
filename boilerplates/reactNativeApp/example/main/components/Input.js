@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 		paddingLeft: 2.5,
 		color: COLORS.DARK,
 		fontSize: FONT_SIZES.L,
-		fontFamily: 'WorkSans-Regular',
+		// fontFamily: 'WorkSans-Regular',
 		fontWeight: '600'
 	},
 	label: {

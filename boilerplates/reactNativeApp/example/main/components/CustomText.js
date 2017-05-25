@@ -4,7 +4,7 @@ import { COLORS, FONT_SIZES } from '../utils/constants';
 
 const styles = StyleSheet.create({
 	defaultText: {
-		fontFamily: 'WorkSans-Regular',
+		// fontFamily: 'WorkSans-Regular',
 		color: COLORS.DARK,
 		fontSize: FONT_SIZES.S
 	}

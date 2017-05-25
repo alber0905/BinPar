@@ -4,49 +4,61 @@ import I18n from '../lang/lang';
 import Scene from '../components/Scene';
 import CustomText from '../components/CustomText';
 import Button from '../components/Button';
-import {COLORS, FONT_SIZES} from '../utils/constants';
-import Separator from '../components/Separator';
+import {COLORS, em} from '../utils/constants';
 import { Router } from '../index';
+import Panel from "../components/Panel";
+
+const BUTTON_HEIGHT = em(2);
 
 const styles = StyleSheet.create({
-	logo: {
-		flex: 0.5,
-		justifyContent: 'center',
-		alignItems: 'center'
+	container: {
+		flex: 1,
+		justifyContent: 'flex-start',
+		alignItems: 'stretch',
+		paddingHorizontal: 10,
+		paddingVertical: 20
 	},
 	title: {
-		fontFamily: 'Rotis Serif',
-		color: COLORS.MAIN_BLUE
+		color: COLORS.MAIN_BLUE,
+		fontSize: em(1.5),
+		marginBottom: 10
 	},
-	title_sec: {
-		color: COLORS.MAIN_GREEN
-	},
-	subtitle: {
-		marginTop: -10,
-		color: COLORS.GREY
-	},
-	selector: {
-		flex: 0.5,
-		paddingLeft: 15,
-		paddingRight: 15,
-		justifyContent: 'space-around'
-	},
-	label: {
+	intro: {
 		color: COLORS.DARK,
-		marginLeft: 10,
-		marginBottom: 10,
-		fontWeight: '600',
-		fontSize: FONT_SIZES.XL
+		fontSize: em(1)
 	},
-	buttonText: {
-		color: COLORS.WHITE,
-		fontWeight: '500',
-		fontSize: FONT_SIZES.XL
+	buttonGroup: {
+		position: 'absolute',
+		bottom: 40,
+		left: 0,
+		right: 0,
+		flexDirection: 'row',
+		justifyContent: 'space-around',
+		alignItems: 'stretch'
 	},
-	buttonStaff: {
-		backgroundColor: COLORS.WHITE,
+	buttonLogin: {
+		height: BUTTON_HEIGHT,
+		paddingHorizontal: 10,
+		backgroundColor: COLORS.TRANSPARENT,
+		borderRadius: 10,
 		borderColor: COLORS.MAIN_BLUE,
-		borderWidth: 1
+		borderWidth: 2
+	},
+	buttonLoginText: {
+		color: COLORS.MAIN_BLUE,
+		fontSize: em(1),
+		fontWeight: '500'
+	},
+	buttonSignUp: {
+		height: BUTTON_HEIGHT,
+		backgroundColor: COLORS.TRANSPARENT,
+		borderRadius: null,
+		borderWidth: 0
+	},
+	buttonSignUpText: {
+		color: COLORS.DARK,
+		fontSize: em(0.85),
+		fontWeight: '400'
 	}
 });
 
@@ -54,55 +66,43 @@ export default class Index extends Component {
 
 	static route = {
 		navigationBar: {
-			visible: false
+			backgroundColor: COLORS.WHITE,
+			title: 'Título navBar',
+			tintColor: COLORS.DARK
 		}
 	};
 
 	constructor(props) {
 		super(props);
 
-		this.state = {
-			titleFont: 0,
-			subtitleFont: 0
-		};
-		this.onLayout = this.onLayout.bind(this);
-		this.goFindJob = this.goFindJob.bind(this);
-		this.goFindHomeStaff = this.goFindHomeStaff.bind(this);
+		this.state = { };
+
+		this.goLogin = this.goLogin.bind(this);
+		this.goSingUp = this.goSingUp.bind(this);
 	}
 
-	onLayout(e) {
-		let viewWidth = e.nativeEvent.layout.width;
-		let titleFont = viewWidth * 0.16;
-		this.setState({titleFont: titleFont, subtitleFont: titleFont * 0.325});
+	goLogin() {
+		this.props.navigator.push(Router.getRoute('login'));
 	}
 
-	goFindHomeStaff() {
-		this.props.navigator.push(Router.getRoute('login', {title: 'find_professionals'}));
-	}
-
-	goFindJob() {
-		this.props.navigator.push(Router.getRoute('login', {title: 'find_job'}));
+	goSingUp() {
+		this.props.navigator.push(Router.getRoute('signUp'));
 	}
 
 	render() {
 		return (
 			<Scene>
-				<View style={styles.logo} onLayout={this.onLayout} >
-					<Text style={[styles.title, {fontSize: this.state.titleFont}]}>familia<Text style={styles.title_sec}>facil</Text></Text>
-					<Text style={[styles.subtitle, {fontSize: this.state.subtitleFont}]}>personal doméstico de confianza</Text>
-				</View>
-				<View style={styles.selector}>
-					<View>
-						<CustomText style={styles.label}>{I18n.t('looking_for_job')}</CustomText>
-						<Button onPress={this.goFindJob}>
-							<CustomText style={styles.buttonText}>{I18n.t('find_job')}</CustomText>
+				<View style={styles.container}>
+					<Panel>
+						<CustomText style={styles.title}>{I18n.t('index.title')}</CustomText>
+						<CustomText style={styles.intro}>{I18n.t('index.intro')}</CustomText>
+					</Panel>
+					<View style={styles.buttonGroup}>
+						<Button style={styles.buttonLogin} onPress={this.goLogin}>
+							<CustomText style={styles.buttonLoginText}>{I18n.t('index.login')}</CustomText>
 						</Button>
-					</View>
-					<Separator text={I18n.t('or')} />
-					<View>
-						<CustomText style={styles.label}>{I18n.t('need_hire_someone')}</CustomText>
-						<Button style={styles.buttonStaff}  onPress={this.goFindHomeStaff}>
-							<CustomText style={[styles.buttonText, {color: COLORS.MAIN_BLUE}]}>{I18n.t('find_home_staff')}</CustomText>
+						<Button style={styles.buttonSignUp} onPress={this.goSingUp}>
+							<CustomText style={styles.buttonSignUpText}>{I18n.t('index.signup')}</CustomText>
 						</Button>
 					</View>
 				</View>
