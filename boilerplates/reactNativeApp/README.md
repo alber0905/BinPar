@@ -21,7 +21,7 @@ Lo primero que haremos será clonar el repositorio donde se encuentra el boilerp
 ```bash
 git clone https://github.com/BinPar/react-native-boilerplate.git
 ```
-Ahora tendremos una carpeta llamada react-native-boilerplate (en la ruta ~/Proyectos/react-native-boilerplate) que dentro tendrá una carpeta **main** (~/Proyectos/react-native-boilerplate/main) que será la que nos interesa por el momento.
+Ahora tendremos una carpeta llamada react-native-boilerplate (en la ruta ~/Proyectos/react-native-boilerplate) que dentro tendrá una carpeta **main** que será la que nos interesa por el momento.
 
 Si antes no creaste un nuevo proyecto hazlo ahora:
 ```bash
