@@ -8,36 +8,35 @@
  - Xcode (Bajar de la App Store)
  
 ## Creación de un nuevo proyecto RN (React Native)
-Con los pre-requisitos cumplidos deberíamos poder ejecutar lo siguiente y obtener nuestro primer proyecto RN.
+Con los pre-requisitos cumplidos deberíamos poder ejecutar lo siguiente y crear nuestro primer proyecto RN.
+
+**Nota**: El proyecto se creará en la ruta de la terminal en la que nos encontremos.
 ```bash
 react-native init AwesomeProject
 cd AwesomeProject
-react-native run-ios
 ```
 
 ## Iniciar el boilerplate
-Para iniciar el boilerplate nos crearemos un nuevo proyecto de React Native con el nombre deseado (reordad que se crea en la ruta en la que me encuentro):
+Lo primero que haremos será clonar el repositorio donde se encuentra el boilerplate (recordad situaros en vuestra carpeta de proyectos, para este ejemplo la carpeta estará en la ruta ~/Proyectos/):
+```bash
+git clone https://github.com/BinPar/react-native-boilerplate.git
+```
+Ahora tendremos una carpeta llamada react-native-boilerplate (en la ruta ~/Proyectos/react-native-boilerplate) que dentro tendrá una carpeta **main** (~/Proyectos/react-native-boilerplate/main) que será la que nos interesa por el momento.
+
+Si antes no creaste un nuevo proyecto hazlo ahora:
 ```bash
 react-native init AwesomeProject
 ```
-Posteriormente entraremos en el directorio del proyecto:
+
+Vamos a copiar esa carpeta a nuestro nuevo proyecto (~/Proyectos/AwesomeProject/):
 ```bash
-cd AwesomeProject
+cp -R ~/Proyectos/react-native-boilerplate/main ~/Proyectos/AwesomeProject/
+cd ~/Proyectos/AwesomeProject
 ```
-Ahora cogeremos la carpeta "main" de nuestro boilerplate y la pondremos en el raíz de nuestro nuevo proyecto obteniendo algo parecido a esto:
-![awesomeProjectIni](https://github.com/BinPar/BinPar/blob/master/resources/awesomeProjectIni.png)
 
-Modificar el archivo package.json para que quede similar a esto (puedes copiar lo necesario del package.json del boilerplate):
-
-ANTES:
-![package.json](https://github.com/BinPar/BinPar/blob/master/resources/packageJSONRNBefore.png)
-
-DESPUÉS:
-![package.json](https://github.com/BinPar/BinPar/blob/master/resources/packageJSONRNAfter.png)
-
-A continuación ejecutaremos:
+Ahora vamos a instalar algunos módulos de RN necesarios y algún otro npm que sea requerido:
 ```bash
-npm install
+npm install --save @expo/ex-navigation babel-preset-react-native-stage-0 react-native-blur react-native-i18n react-native-vector-icons
 ```
 
 Ahora cambiaremos el nombre de nuestra clase del "index.js" de la carpeta "main" para que coincida con nuestro nombre de proyecto:
@@ -48,7 +47,7 @@ ANTES:
 DESPUÉS:
 ![index.js](https://github.com/BinPar/BinPar/blob/master/resources/indexRNAfter.png)
 
-Porteriormente editamos tanto el archivo "index.ios.js" como el "index.android.js" de la raíz para que se parezca a esto:
+Porteriormente editamos tanto el archivo "index.ios.js" como el "index.android.js" de la raíz sustituyendo su contenido por lo siguiente (recordad que AwesomeProject es nuestro nombre de proyecto):
 
 ```javascript
 import { AppRegistry } from 'react-native';
@@ -60,7 +59,7 @@ AppRegistry.registerComponent('AwesomeProject', () => AwesomeProject);
 
 Por último editamos el .babelrc de la raíz para que quede así:
 
-```
+```json
 {
   "presets": ["react-native", "react-native-stage-0/decorator-support"]
 }
