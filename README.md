@@ -8,7 +8,7 @@
  - [Burradas varias y cómo arreglarlas](https://github.com/BinPar/BinPar/blob/master/notTheBinParWay/burradas.md)
  
 ## Boilerplates
- - [React Native App](https://github.com/BinPar/BinPar/tree/master/boilerplates/reactNativeApp)
+ - [React Native App](https://github.com/BinPar/react-native-boilerplate)
  
 ## How to's
  - [Convertir video a GIF usando ffmpeg](https://github.com/BinPar/BinPar/blob/master/howtos/videoToGif.md)
