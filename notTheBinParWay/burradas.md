@@ -35,3 +35,13 @@ let orden = obras.map((o)=> {
 ```javascript
 let orden = obras.map(o => o.artist[0]);
 ```
+
+### Burrada
+```c#
+var current = DateTime.Now;
+var currentDate = new DateTime(current.Year, current.Month, current.Day);
+```
+### Solución
+```c#
+var currentDate = DateTime.Today;
+```
