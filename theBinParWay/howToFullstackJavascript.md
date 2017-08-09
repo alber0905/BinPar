@@ -1,4 +1,7 @@
-# Full stack JavaScript: Pautas de programación
+#¡DEPRECATED!
+Consultar esto en su lugar: [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript/blob/master/README.md)
+
+## Full stack JavaScript: Pautas de programación
 
 Usar ES2015 como comenté un día en Discord, ES2015 nos brinda muchas ventajas y mucho ahorro de código que, en ocasiones, puede parecer que “ensucia”, pero al contrario de lo que parece, bien usado, lo aclara. A veces menos es más.
 
