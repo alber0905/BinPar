@@ -57,7 +57,7 @@ Los usuarios de **Windows** tendrán que ejecutar lo siguiente:
 ```bash
 npm info "eslint-config-airbnb@latest" peerDependencies
 ```
-Y a continuación instalar con `sudo npm install --save-dev <nombre_dependencia>` cada una de las dependencias.
+Y a continuación instalar con `npm install --save-dev <nombre_dependencia>` cada una de las dependencias.
 
 ### 2 - Crear archivo de configuración
 Con un editor de texto crearemos el siguiente archivo:
