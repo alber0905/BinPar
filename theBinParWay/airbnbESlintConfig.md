@@ -32,56 +32,41 @@ Ahí explica todo lo que contempla y por qué tiene que ser así.
 ## Entendido. ¿Ahora qué?
 Pues ahora, vamos a **configurar** lo necesario para que WebStorm se convierta en el chivato perfecto
 
+**¡NOTA!** Es necesario Node v6.11 o superior.
+
 ### 1 - Instalar ESLint
-Primero tenemos que instalar ESLint y la configuración de Airbnb:
+Primero tenemos que instalar ESLint y la configuración de Airbnb. Nos situaremos en la raíz del proyecto
+y ejecutaremos lo siguiente:
 ```bash
-sudo npm install -g eslint eslint-config-airbnb
+npm install --save-dev eslint eslint-config-airbnb
 ```
 Después instalamos las dependencias para ES6:
 ```bash
-sudo npm install -g eslint-plugin-jsx-a11y@^2.0.0 eslint-plugin-react eslint-plugin-import babel-eslint
+npm install --save-dev eslint-plugin-jsx-a11y@^2.0.0 eslint-plugin-react eslint-plugin-import babel-eslint
 ```
 
-A continuación tenemos que instalar las peerDependencies de ESLint que los usuarios de Mac/Linux podrán
+A continuación tenemos que instalar las peerDependencies de ESLint que los usuarios de **Mac/Linux** podrán
 hacer de la siguiente forma:
 ```bash
 (
   export PKG=eslint-config-airbnb;
-  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs sudo npm install -g "$PKG@latest"
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
 )
 ```
-Los usuarios de Windows tendrán que ejecutar lo siguiente:
+Los usuarios de **Windows** tendrán que ejecutar lo siguiente:
 ```bash
 npm info "eslint-config-airbnb@latest" peerDependencies
 ```
-Y a continuación instalar con `sudo npm install -g` cada una de las dependencias. 
-
-**¡NOTA!**
-Los comandos anteriores nos instalarán ESLint de forma global, es decir, nos servirá para todos los
-proyectos. Esto no quiere decir que se vaya a activar automáticamente para todos los proyectos
-ni mucho menos. Si no queremos hacerlo de forma global, podemos ejecutar los comandos en la raíz de
-cada proyecto en el que queramos ESLint quitando **-g**, añadiendo **--save-dev** ()para que lo incluya
-en la parte de devDependencies del package.json) y sin **sudo** para evitar problemas de permisos.
-En el último comando cambiar la parte que viene después de **xargs**. 
+Y a continuación instalar con `sudo npm install --save-dev <nombre_dependencia>` cada una de las dependencias.
 
 ### 2 - Crear archivo de configuración
 Con un editor de texto crearemos el siguiente archivo:
 ```
 {
-  "extends": "airbnb",
-  "rules": {
-    "func-names": ["error", "never"]
-  }
+  "extends": "airbnb"
 }
 ```
-Para hacer que esta configuración sea global sólo tenemos que guardarlo con el nombre **.eslintrc**
-ponerlo en el directorio padre del directorio que contiene todos los proyectos puesto que ESLint busca
-la configuración en el directorio del proyecto que se ejecuta y hacia arriba en el árbol hasta la raíz
-del sistema de ficheros. Las configuraciones se sobreescriben desde la raíz del sistema de ficheros
-hacia abajo en el árbol, es decir, en orden inverso al que recorre para buscar archivos .eslintrc.
-
-Lo cual nos deja a elección si queremos que esta sea nuestra configuración global, sólo para un
-proyecto o incluso sólo para los proyectos que cuelgan de mi directorio _thisIsTheBinParWay_.
+Guardaremos el archivo como **.eslintrc** en la raíz del proyecto al que queramos aplicar ESLint, a la misma altura del package.json.
 
 ### 3 - Configurar WebStorm
 Vamos a las Preferencias (WebStorm => Preferences... ó CMD + ,).
