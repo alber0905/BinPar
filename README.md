@@ -13,6 +13,7 @@
  - [React Native App](https://github.com/BinPar/react-native-boilerplate)
  
 ## How to's
+ - [Configurar Apollo Engine (Docker)](./howtos/configureApolloEngineDocker.md)
  - [Configurar Google Cloud Messaging](https://github.com/BinPar/BinPar/blob/master/howtos/notificationAndroid.md)
  - [Abrir mongodb para servidores externos](https://github.com/BinPar/BinPar/blob/master/howtos/addTrustedServerForMongo.md)
  - [Deploy Meteor/NextJS](https://github.com/BinPar/bi-mupx/blob/master/README.md)
