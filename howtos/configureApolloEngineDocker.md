@@ -20,7 +20,23 @@
     "frontends": [{
       "port": PUERTO_ESCUCHA_GRAPHQL,
       "endpoints": ["/RUTA_GRAPHQL"]
-    }]
+    }],
+   "stores":[
+      {
+         "name":"embeddedCache",
+         "inMemory":{
+            "cacheSize":10485760
+         }
+      }
+   ],
+   "sessionAuth":{
+      "store":"embeddedCache",
+      "header":"authorization"
+   },
+   "queryCache":{
+      "publicFullQueryStore":"embeddedCache",
+      "privateFullQueryStore":"embeddedCache"
+   }
   }
   ```
 
@@ -36,7 +52,23 @@
     "frontends": [{
       "port": 3004,
       "endpoints": ["/graphql"]
-    }]
+    }],
+   "stores":[
+      {
+         "name":"embeddedCache",
+         "inMemory":{
+            "cacheSize":10485760
+         }
+      }
+   ],
+   "sessionAuth":{
+      "store":"embeddedCache",
+      "header":"authorization"
+   },
+   "queryCache":{
+      "publicFullQueryStore":"embeddedCache",
+      "privateFullQueryStore":"embeddedCache"
+   }
   }
   ```
   En este caso el front de nuestra web deberá realizar las peticiones al endpoint que apunte al puerto 3004 y Apollo Engine hará de proxy y enviará a nuestro API en 3002 todo el tráfico de GraphQL.
