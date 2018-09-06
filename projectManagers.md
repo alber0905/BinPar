@@ -9,6 +9,7 @@
  - **PPD** - Nicolás Ariatnousos
  - **DF** - Miguel Rodríguez
  - **Landings** - Cristian Álvarez
+ - **MiEureka** - Miguel Rodríguez
 
 ## JTQ (Oro)
  - Fernando Oviedo
