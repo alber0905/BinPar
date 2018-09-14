@@ -3,7 +3,7 @@
 ## EMP
  - **Antigua web** - Cristian Álvarez
  - **Nueva web** - Cristian Álvarez
- - **CRM** - Cristian Álvarez
+ - **CRM** - Nicolás Ariatnousos
  - **BiBOOKS** - Miguel Rodríguez
  - **PRM** - Nicolás Ariatnousos
  - **PPD** - Nicolás Ariatnousos
