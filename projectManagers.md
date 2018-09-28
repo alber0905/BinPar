@@ -69,6 +69,9 @@
 
 ## iUrisfy
  - Marcos González
+ 
+ ## Nautical
+  - **SATCOM Magic** - Fran Riquelme
 
 ## BinPar
  - **Nueva Web** - Carula Garat
