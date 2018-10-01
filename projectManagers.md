@@ -3,13 +3,13 @@
 ## EMP
  - **Antigua web** - Cristian Álvarez
  - **Nueva web** - Cristian Álvarez
- - **CRM** - Nicolás Ariatnousos
+ - **Landings** - Cristian Álvarez
  - **BiBOOKS** - Miguel Rodríguez
+ - **DF** - Miguel Rodríguez
+ - **MiEureka** - Miguel Rodríguez
+ - **CRM** - Nicolás Ariatnousos
  - **PRM** - Nicolás Ariatnousos
  - **PPD** - Nicolás Ariatnousos
- - **DF** - Miguel Rodríguez
- - **Landings** - Cristian Álvarez
- - **MiEureka** - Miguel Rodríguez
 
 ## JTQ (Oro)
  - Fernando Oviedo
