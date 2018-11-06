@@ -76,4 +76,4 @@
 ## BinPar
  - **Nueva Web** - Carula Garat
  - **BinPar Tool** - Cristian Álvarez
- - **Backups** - Manuel Serrano
+ - **Backups** - Marcos González
