@@ -10,6 +10,7 @@
  - **CRM** - Nicolás Ariatnousos
  - **PRM** - Nicolás Ariatnousos
  - **PPD** - Nicolás Ariatnousos
+ - **Anatomía 3D** - Marcos González
 
 ## JTQ (Oro)
  - Fernando Oviedo
