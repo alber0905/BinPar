@@ -55,6 +55,9 @@
  
 ## SEGO
  - Manuel Serrano
+ 
+ ## CEDRO
+ - Manuel Serrano
 
 ## Síntesis
  - Marcos Íñigo
