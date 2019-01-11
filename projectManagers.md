@@ -11,6 +11,7 @@
  - **PRM** - Nicolás Ariatnousos
  - **PPD** - Nicolás Ariatnousos
  - **Anatomía 3D** - Marcos González
+ - **MegaSimulacro** - Marcos González
 
 ## JTQ (Oro)
  - Fernando Oviedo
