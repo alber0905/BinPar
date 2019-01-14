@@ -12,6 +12,7 @@
  - **PPD** - Nicolás Ariatnousos
  - **Anatomía 3D** - Marcos González
  - **MegaSimulacro** - Marcos González
+ - **PostMIR** - Cristian Álvarez
 
 ## JTQ (Oro)
  - Fernando Oviedo
