@@ -67,6 +67,12 @@
 ## AEDV
  - Marcos Íñigo
  
+ ## Furuno
+ - Marcos Íñigo
+ 
+ ## MSM
+ - Marcos Íñigo
+ 
  ## Generación X
  - Marcos Íñigo
  
