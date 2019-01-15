@@ -61,24 +61,6 @@
  ## CEDRO
  - Manuel Serrano
 
-## Síntesis
- - Marcos Íñigo
-
-## AEDV
- - Marcos Íñigo
- 
- ## Furuno
- - Marcos Íñigo
- 
- ## MSM
- - Marcos Íñigo
- 
- ## Generación X
- - Marcos Íñigo
- 
- ## Arkeyvata
- - Marcos Íñigo
-
 ## Piccin
  - Miguel Rodríguez
 
@@ -97,3 +79,26 @@
  - **Backups** - Marcos González
  - **Sistemas** - Manuel Serrano
  - **WebEmpresa** - Marcos Íñigo
+ 
+## PostVenta
+
+### Síntesis
+ - Marcos Íñigo
+
+### AEDV
+ - Marcos Íñigo
+ 
+### Furuno
+ - Marcos Íñigo
+ 
+### NieveFX
+ - Marcos Íñigo
+ 
+### MSM
+ - Marcos Íñigo
+ 
+### Generación X
+ - Marcos Íñigo
+ 
+### Arkeyvata
+ - Marcos Íñigo
