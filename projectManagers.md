@@ -66,6 +66,12 @@
 
 ## AEDV
  - Marcos Íñigo
+ 
+ ## Generación X
+ - Marcos Íñigo
+ 
+ ## Arkeyvata
+ - Marcos Íñigo
 
 ## Piccin
  - Miguel Rodríguez
