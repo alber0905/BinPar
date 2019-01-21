@@ -13,6 +13,7 @@
  - **Anatomía 3D** - Marcos González
  - **MegaSimulacro** - Marcos González
  - **PostMIR** - Cristian Álvarez
+ - **APP Medicina de Urgencias**: Esteban Ortega
 
 ## JTQ (Oro)
  - Fernando Oviedo
