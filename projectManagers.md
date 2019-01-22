@@ -10,7 +10,7 @@
  - **CRM** - Nicolás Ariatnousos
  - **PRM** - Nicolás Ariatnousos
  - **PPD** - Nicolás Ariatnousos
- - **Anatomía 3D** - Marcos González
+ - **Anatomía 3D** - Ana Victoria Gordo
  - **MegaSimulacro** - Marcos González
  - **PostMIR** - Cristian Álvarez
  - **APP Medicina de Urgencias**: Esteban Ortega
