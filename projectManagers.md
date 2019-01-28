@@ -24,6 +24,9 @@
 
 ## Edinumen
  - Miguel Rodríguez
+ 
+## Guadalingo
+ - Marcos González
 
 ## Axon
  - Cristian Álvarez
