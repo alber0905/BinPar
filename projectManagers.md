@@ -78,7 +78,7 @@
   - **SATCOM Magic** - Fran Riquelme
 
 ## BinPar
- - **Nueva Web** - Carula Garat
+ - **Nueva Web** - Cristian Álvarez
  - **BinPar Tool** - Cristian Álvarez
  - **Backups** - Marcos González
  - **Sistemas** - Manuel Serrano
