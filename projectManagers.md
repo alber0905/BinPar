@@ -14,6 +14,7 @@
  - **MegaSimulacro** - Marcos González
  - **PostMIR** - Cristian Álvarez
  - **APP Medicina de Urgencias**: Esteban Ortega
+ - **Encuestas Alumnos PROMIR**: Cristian Álvarez
 
 ## JTQ (Oro)
  - Fernando Oviedo
