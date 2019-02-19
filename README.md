@@ -27,6 +27,6 @@
 
 ## PostVenta
 
-- [Documentación por proyecto](./documentation.md)
+- [Documentación por proyecto](./PostVenta/documentation.md)
 
-- [Información de servidores](./serverInformation.md)
+- [Información de servidores](./PostVenta/serverInformation.md)
