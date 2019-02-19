@@ -1,0 +1,19 @@
+Informe mensual SINTESIS
+
+1. Layout:
+- Member
+- Task
+- Task number
+- Reported Time
+
+2. Sustituir nombre de member por puesto.
+
+3. Añadir columna Herramienta: WEB - CMS - GESTOR - VISOR - APP MOVIL - APP ESCRITORIO
+
+4. Añadir columna Revisión SINTESIS
+
+5. Añadir columna Revisión PV
+
+6. Añadir columna Comentarios
+
+7. Añadir leyenda
