@@ -34,4 +34,4 @@ Las intrucciones para realizar el informe están en https://github.com/BinPar/Bi
 
 Resumen anual 2018: https://github.com/BinPar/BinPar/blob/master/PostVenta/SINTESIS/SintesisBinpar18.zip
 
-Ejemplo de nuevo modelo de informe mensual para 2019: https://github.com/BinPar/BinPar/blob/master/PostVenta/SINTESIS/%5BPostventa%5D_SINTESIS_2019-Jan-01-2019-Jan-31.xlsxTipo de proyecto
+Ejemplo de nuevo modelo de informe mensual para 2019: https://github.com/BinPar/BinPar/blob/master/PostVenta/SINTESIS/%5BPostventa%5D_SINTESIS_2019-Jan-01-2019-Jan-31.xlsx
