@@ -1,6 +1,6 @@
 # BinPar - Project Managers
 
-## EMP
+## EMP (Editorial Médica Panamericana)
 
 ### Nuevos Desarrollos
  - **Nueva web** - Cristian Álvarez
