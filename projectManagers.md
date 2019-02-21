@@ -1,20 +1,24 @@
 # BinPar - Project Managers
 
 ## EMP
- - **Antigua web** - Cristian Álvarez
+
+### Nuevos Desarrollos
  - **Nueva web** - Cristian Álvarez
- - **Landings** - Cristian Álvarez
- - **BiBOOKS** - Miguel Rodríguez
  - **DF** - Miguel Rodríguez
  - **MiEureka** - Miguel Rodríguez
- - **CRM** - Nicolás Ariatnousos
- - **PRM** - Nicolás Ariatnousos
- - **PPD** - Nicolás Ariatnousos
  - **Anatomía 3D** - Ana Victoria Gordo
  - **MegaSimulacro** - Marcos González
  - **PostMIR** - Cristian Álvarez
  - **APP Medicina de Urgencias**: Esteban Ortega
  - **Encuestas Alumnos PROMIR**: Cristian Álvarez
+
+### Mantenimientos
+  - **Antigua web** - Cristian Álvarez
+  - **BiBOOKS** - Miguel Rodríguez
+  - **Landings** - Sergio Lledó
+  - **PRM** - Nicolás Ariatnousos
+  - **PPD** - Nicolás Ariatnousos
+  - **CRM** - Nicolás Ariatnousos
 
 ## JTQ (Oro)
  - Fernando Oviedo
