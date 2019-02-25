@@ -1,0 +1,5 @@
+Informe mensual AXON
+
+1. Exportar [Postventa] Axon.
+
+2. Sustituir nombre de member por puesto.
