@@ -15,17 +15,17 @@ http://www.sintesis.com
 ### Tipo de proyecto
 
 - **WEB**: Desarrollo ajeno a BINPAR. El mantenimiento de la herramienta se facturará contra la bolsa de horas mensuales.
-- **Gestor**: Desarrollado por BINPAR. El mantenimiento de la herramienta se facturará contra el mantenimiento mensual.
+- **Gestor**: Desarrollado por BINPAR. El mantenimiento de la herramienta se facturará contra la bolsa de horas mensuales.
 - **CMS**: Desarrollo ajeno a BINPAR. El mantenimiento de la herramienta se facturará contra la bolsa de horas mensuales.
-- **Visor Web**: Desarrollado por BINPAR. El mantenimiento de la herramienta se facturará contra el mantenimiento mensual.
-- **APP** (escritorio y móvil): Desarrollado por BINPAR. El mantenimiento de la herramienta se facturará contra el mantenimiento mensual.
+- **Visor Web**: Desarrollado por BINPAR. El mantenimiento de la herramienta se facturará contra la bolsa de horas mensuales.
+- **APP** (escritorio y móvil): Desarrollado por BINPAR. El mantenimiento de la herramienta se facturará contra la bolsa de horas mensuales.
 
 ### Contratación
 
 - Bolsa de 20 horas mensuales para evolución de la plataforma y resolución de incidencias.
 - Hosting.
 
-### Información general
+### Información de gestión general
 
 Actualmente SINTESIS recibe un informe mensual detallando los trabajos realizados y si estos son imputables contra la **bolsa de 20 horas mensuales** que están pagando para nuevos desarrollos. ~Todos aquellos trabajos que no entren dentro de la categoría de nuevo desarrollo/mejora de la plataforma quedan excluidos del cómputo total de horas.~
 
