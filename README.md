@@ -30,3 +30,6 @@
 - [Documentación por proyecto](./PostVenta/documentation.md)
 
 - [Información de servidores](./PostVenta/serverInformation.md)
+
+## Misiones e Incentivos
+- [Misiones e Incentivos v1-3](./resources/BinPar%20-%20Misiones%20e%20Incentivos%20V1-3.pdf)
