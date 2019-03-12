@@ -21,7 +21,7 @@
   - **CRM** - Nicolás Ariatnousos
 
 ## JTQ (Oro)
- - Fernando Oviedo
+ - Álvaro Tauroni
 
 ## ART Madrid
  - **ART Madrid** - Marcos González
