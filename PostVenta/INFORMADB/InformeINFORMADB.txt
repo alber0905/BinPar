@@ -1,0 +1,5 @@
+Informe mensual INFORMADB
+
+1. Exportar [Postventa] INFORMA
+
+2. Sustituir nombre de member por puesto.
