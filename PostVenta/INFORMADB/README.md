@@ -23,7 +23,7 @@ Actualmente son los responsables de INFORMA los que facilitan los contenidos al 
 
 ### Contratación
 
-- Bolsa de 20 jornadas mensuales para evolución de la plataforma.
+- Bolsa de 20 jornadas para evolución de la plataforma.
 - Mantenimiento mensual (Servicio de conversión en la nube y actualización SW).
 - Hosting.
 
