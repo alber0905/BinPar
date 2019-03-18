@@ -81,7 +81,7 @@
  - Marcos González
  
  ## Nautical
-  - **SATCOM Magic** - Fran Riquelme
+  - **SATCOM Magic** - Álvaro Tauroni
 
 ## BinPar
  - **Nueva Web** - Cristian Álvarez
