@@ -21,6 +21,9 @@
   - **PPD** - Nicolás Ariatnousos
   - **CRM** - Nicolás Ariatnousos
 
+## HOCELOT
+- Cristian Álvarez
+
 ## JTQ (Oro)
  - Álvaro Tauroni
 
