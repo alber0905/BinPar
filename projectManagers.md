@@ -38,7 +38,7 @@
  - Marcos González
 
 ## Axon
- - Cristian Álvarez
+ - Marcos Iñigo
 
 ## Smart Discovery
  - **Reale** - Marcos González
