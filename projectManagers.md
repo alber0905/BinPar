@@ -6,16 +6,18 @@
  - **Nueva web** - Cristian Álvarez
  - **DF** - Miguel Rodríguez
  - **MiEureka** - Miguel Rodríguez
- - **Anatomía 3D** - Ana Victoria Gordo
+ - **Anatomía 3D** - Laura Miguelañez
  - **MegaSimulacro** - Marcos González
  - **PostMIR** - Cristian Álvarez
  - **APP Medicina de Urgencias**: Esteban Ortega
  - **Encuestas Alumnos PROMIR**: Cristian Álvarez
  - **EVA Formación** -  Ignacio Ferro
+ - **Acceso IP referido a EVA** - Manuel Serrano
+ - **Doctor Q** - Esteban Ortega
 
 ### Mantenimientos
   - **Antigua web** - Cristian Álvarez
-  - **BiBOOKS** - Miguel Rodríguez
+  - **BiBOOKS** - Águeda Gámez
   - **Landings** - Sergio Lledó
   - **PRM** - Nicolás Ariatnousos
   - **PPD** - Nicolás Ariatnousos
@@ -52,6 +54,9 @@
 
 ## Grupo A
  - Miguel Rodríguez
+ 
+ ## Sanborns
+ - Esther Vega
 
 ## Ad Server
  - Marcos González
@@ -63,7 +68,7 @@
  - Marcos González
 
 ## Gala
- - Carula Garat
+ - PENDIENTE
 
 ## APSIS
  - Marcos González
