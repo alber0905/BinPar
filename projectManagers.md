@@ -5,15 +5,15 @@
 ### Nuevos Desarrollos
  - **Nueva web** - Cristian Álvarez
  - **DF** - Miguel Rodríguez
- - **MiEureka** - Miguel Rodríguez
+ - **MiEureka** - Pendiente de reasignar
  - **Anatomía 3D** - Laura Miguelañez
  - **MegaSimulacro** - Marcos González
  - **PostMIR** - Cristian Álvarez
- - **APP Medicina de Urgencias**: Esteban Ortega
+ - **APP Medicina de Urgencias**: Pendiente de reasignar
  - **Encuestas Alumnos PROMIR**: Cristian Álvarez
  - **EVA Formación** -  Ignacio Ferro
  - **Acceso IP referido a EVA** - Manuel Serrano
- - **Doctor Q** - Esteban Ortega
+ - **Doctor Q** - Pendiente de reasignar
 
 ### Mantenimientos
   - **Antigua web** - Cristian Álvarez
@@ -27,7 +27,7 @@
 - Cristian Álvarez
 
 ## JTQ (Oro)
- - Álvaro Tauroni
+ - Pendiente de reasignar
 
 ## ART Madrid
  - **ART Madrid** - Marcos González
@@ -40,7 +40,7 @@
  - Marcos González
 
 ## Axon
- - Marcos Iñigo
+ - Cristian Álvarez
 
 ## Smart Discovery
  - **Reale** - Marcos González
@@ -62,22 +62,22 @@
  - Marcos González
 
 ## UNE
- - Miguel Rodríguez
+ - Marcos Íñigo
 
 ## AbuBambu
  - Marcos González
 
 ## Gala
- - PENDIENTE
+ - Pendiente de reasignar
 
 ## APSIS
  - Marcos González
  
 ## SEGO
- - Manuel Serrano
+ - Pendiente de reasignar
  
  ## CEDRO
- - Manuel Serrano
+ - Pendiente de reasignar
 
 ## Piccin
  - Miguel Rodríguez
@@ -89,13 +89,13 @@
  - Marcos González
  
  ## Nautical
-  - **SATCOM Magic** - Álvaro Tauroni
+  - **SATCOM Magic** - Pendiente de reasignar
 
 ## BinPar
  - **Nueva Web** - Cristian Álvarez
  - **BinPar Tool** - Cristian Álvarez
  - **Backups** - Marcos González
- - **Sistemas** - Manuel Serrano
+ - **Sistemas** - Pendiente de reasignar
  - **WebEmpresa** - Marcos Íñigo
  
 ## PostVenta
