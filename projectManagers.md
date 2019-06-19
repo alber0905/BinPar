@@ -92,6 +92,7 @@
   - **SATCOM Magic** - Pendiente de reasignar
 
 ## BinPar
+ - **Framework** - Marcos González
  - **Nueva Web** - Cristian Álvarez
  - **BinPar Tool** - Cristian Álvarez
  - **Backups** - Marcos González
