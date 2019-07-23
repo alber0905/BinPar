@@ -9,11 +9,10 @@
  - **Anatomía 3D** - Laura Miguelañez
  - **MegaSimulacro** - Marcos González
  - **PostMIR** - Cristian Álvarez
- - **APP Medicina de Urgencias**: Pendiente de reasignar
- - **Encuestas Alumnos PROMIR**: Cristian Álvarez
+ - **APP Medicina de Urgencias**: Stefany Fernández
  - **EVA Formación** -  Ignacio Ferro
- - **Acceso IP referido a EVA** - Manuel Serrano
- - **Doctor Q** - Pendiente de reasignar
+ - **Acceso IP referido a EVA** - Verónica Celemín
+ - **Doctor Q** - Stefany Fernández
 
 ### Mantenimientos
   - **Antigua web** - Cristian Álvarez
@@ -24,17 +23,18 @@
   - **CRM** - Nicolás Ariatnousos
 
 ## HOCELOT
-- Cristian Álvarez
+- **WHITE** - Cristian Álvarez
+- **NOWO** - Marcos González
 
 ## JTQ (Oro)
- - Pendiente de reasignar
+ - Marcos Íñigo
 
 ## ART Madrid
  - **ART Madrid** - Marcos González
  - **Galería BAT** - Marcos González
 
 ## Edinumen
- - Miguel Rodríguez
+ - Miguel Rodríguez (T)
  
 ## Guadalingo
  - Marcos González
@@ -50,10 +50,10 @@
  - **Retool** - Cristian Álvarez
 
 ## Informa
- - Miguel Rodríguez
+ - Marcos Íñigo
 
 ## Grupo A
- - Miguel Rodríguez
+ - Miguel Rodríguez (T)
  
  ## Sanborns
  - Esther Vega
@@ -62,7 +62,7 @@
  - Marcos González
 
 ## UNE
- - Marcos Íñigo
+ - Esther Vega
 
 ## AbuBambu
  - Marcos González
@@ -80,19 +80,19 @@
  - Pendiente de reasignar
 
 ## Piccin
- - Miguel Rodríguez
+ - Águeda Gámez
 
 ## Olivarera
- - Miguel Rodríguez
+ - Esther Vega
 
 ## iUrisfy
  - Marcos González
  
  ## Nautical
-  - **SATCOM Magic** - Pendiente de reasignar
+  - **SATCOM Magic** - Marcos Íñigo
 
 ## BinPar
- - **Framework** - Marcos González
+ - **Framework** - Pendiente de reasignar
  - **Nueva Web** - Cristian Álvarez
  - **BinPar Tool** - Cristian Álvarez
  - **Backups** - Marcos González
