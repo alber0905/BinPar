@@ -10,14 +10,14 @@
  - **MegaSimulacro** - Marcos González
  - **PostMIR** - Cristian Álvarez
  - **APP Medicina de Urgencias**: Stefany Fernández
- - **EVA Formación** -  Ignacio Ferro
+ - **EVA Formación** -  Miguel Rodríguez
  - **Acceso IP referido a EVA** - Verónica Celemín
  - **Doctor Q** - Stefany Fernández
 
 ### Mantenimientos
   - **Antigua web** - Cristian Álvarez
   - **BiBOOKS** - Águeda Gámez
-  - **Landings** - Sergio Lledó
+  - **Landings** - Águeda Gámez
   - **PRM** - Nicolás Ariatnousos
   - **PPD** - Nicolás Ariatnousos
   - **CRM** - Nicolás Ariatnousos
@@ -27,14 +27,14 @@
 - **NOWO** - Marcos González
 
 ## JTQ (Oro)
- - Marcos Íñigo
+ - Beatríz Ortega
 
 ## ART Madrid
  - **ART Madrid** - Marcos González
  - **Galería BAT** - Marcos González
 
 ## Edinumen
- - Miguel Rodríguez (T)
+ - Esther Vega
  
 ## Guadalingo
  - Marcos González
@@ -53,7 +53,7 @@
  - Marcos Íñigo
 
 ## Grupo A
- - Miguel Rodríguez (T)
+ - Miguel Rodríguez
  
  ## Sanborns
  - Esther Vega
@@ -92,11 +92,11 @@
   - **SATCOM Magic** - Marcos Íñigo
 
 ## BinPar
- - **Framework** - Pendiente de reasignar
+ - **Framework** - Miguel Rodríguez 
  - **Nueva Web** - Cristian Álvarez
  - **BinPar Tool** - Cristian Álvarez
  - **Backups** - Marcos González
- - **Sistemas** - Pendiente de reasignar
+ - **Sistemas** - Sergio Martín
  - **WebEmpresa** - Marcos Íñigo
  
 ## PostVenta
