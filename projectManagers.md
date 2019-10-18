@@ -15,7 +15,7 @@
  - **Doctor Q** - Stefany Fernández
 
 ### Mantenimientos
-  - **Antigua web** - Cristian Álvarez
+  - **Antigua web** - Águeda Gámez
   - **BiBOOKS** - Águeda Gámez
   - **Landings** - Águeda Gámez
   - **PRM** - Nicolás Ariatnousos
