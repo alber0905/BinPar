@@ -8,7 +8,8 @@
  - **MiEureka** - Pendiente de reasignar
  - **Anatomía 3D** - Laura Miguelañez
  - **MegaSimulacro** - Marcos González
- - **PostMIR** - Cristian Álvarez
+ - **APP PostMIR** - Anna Hogberg
+ - **Megasimulacro** - Verónica Celemín
  - **APP Medicina de Urgencias**: Stefany Fernández
  - **EVA Formación** -  Miguel Rodríguez
  - **Acceso IP referido a EVA** - Verónica Celemín
@@ -24,7 +25,7 @@
 
 ## HOCELOT
 - **WHITE** - Cristian Álvarez
-- **NOWO** - Marcos González
+- **NOWO** - Cristian Álvarez
 
 ## JTQ (Oro)
  - Beatríz Ortega
@@ -37,7 +38,7 @@
  - Esther Vega
  
 ## Guadalingo
- - Marcos González
+ - Marcos Íñigo
 
 ## Axon
  - Cristian Álvarez
