@@ -33,9 +33,6 @@
 ## ART Madrid
  - **ART Madrid** - Marcos González
  - **Galería BAT** - Marcos González
-
-## Edinumen
- - Esther Vega
  
 ## Guadalingo
  - Marcos Íñigo
@@ -50,20 +47,8 @@
 ## Reticulae
  - **Retool** - Cristian Álvarez
 
-## Informa
- - Marcos Íñigo
-
-## Grupo A
- - Miguel Rodríguez
- 
- ## Sanborns
- - Esther Vega
-
 ## Ad Server
  - Marcos González
-
-## UNE
- - Esther Vega
 
 ## AbuBambu
  - Marcos González
@@ -79,12 +64,6 @@
  
  ## CEDRO
  - Pendiente de reasignar
-
-## Piccin
- - Águeda Gámez
-
-## Olivarera
- - Esther Vega
 
 ## iUrisfy
  - Marcos González
@@ -122,3 +101,18 @@
  
 ### Arkeyvata
  - Marcos Íñigo
+
+
+## Departamento de BiBooks
+
+| Proyecto        | Jefe de Proyecto           | Comunicación  |
+| ------------- |-------------| -----|
+| Read Garden | Esther Vega | - |
+| Olivarera | Esther Vega | Marcos Íñigo |
+| Sanborns | Esther Vega | Marcos Íñigo |
+| Grupo A | Miguel Rodríguez | Miguel Rodríguez |
+| Edinumen | Esther Vega | Esther Vega |
+| UNE | Marcos Íñigo | Marcos Íñigo |
+| Informa | Marcos Íñigo | Marcos Íñigo |
+| Piccin | Águeda Gámez | Águeda Gámez |
+| BiBOOKS EMP | Águeda Gámez | Águeda Gámez |
