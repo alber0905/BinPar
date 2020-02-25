@@ -7,9 +7,8 @@
  - **DF** - Miguel Rodríguez
  - **MiEureka** - Pendiente de reasignar
  - **Anatomía 3D** - Laura Miguelañez
- - **MegaSimulacro** - Marcos González
- - **APP PostMIR** - Anna Hogberg
- - **Megasimulacro** - Verónica Celemín
+ - **MegaSimulacro** - Verónica Celemín
+ - **APP PostMIR** - Raquel Quispe
  - **APP Medicina de Urgencias**: Stefany Fernández
  - **EVA Formación** -  Miguel Rodríguez
  - **Acceso IP referido a EVA** - Verónica Celemín
@@ -28,7 +27,7 @@
 - **NOWO** - Cristian Álvarez
 
 ## JTQ (Oro)
- - Beatríz Ortega
+ - Pepe Segado
 
 ## ART Madrid
  - **ART Madrid** - Marcos González
@@ -54,7 +53,7 @@
  - Marcos González
 
 ## Gala
- - Pendiente de reasignar
+ - Alberto Blanco
 
 ## APSIS
  - Marcos González
@@ -76,7 +75,7 @@
  - **Nueva Web** - Cristian Álvarez
  - **BinPar Tool** - Cristian Álvarez
  - **Backups** - Marcos González
- - **Sistemas** - Sergio Martín
+ - **Sistemas** - Marcos González
  - **WebEmpresa** - Marcos Íñigo
  
 ## PostVenta
