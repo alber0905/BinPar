@@ -78,29 +78,17 @@
  - **Sistemas** - Marcos González
  - **WebEmpresa** - Marcos Íñigo
  
-## PostVenta
+## Departamento de PostVenta
 
-### Síntesis
- - Marcos Íñigo
-
-### AEDV
- - Águeda Gamez
- 
-### Furuno
- - Marcos Íñigo
- 
-### NieveFX
- - Marcos Íñigo
- 
-### MSM
- - Marcos Íñigo
- 
-### Generación X
- - Marcos Íñigo
- 
-### Arkeyvata
- - Marcos Íñigo
-
+| Proyecto        | Jefe de Proyecto |
+| ------------- |-------------|
+| Síntesis | Marcos Íñigo |
+| AEDV | Águeda Gamez |
+| Furuno | Marcos Íñigo |
+| NieveFX | Marcos Íñigo |
+| MSM | Marcos Íñigo | 
+| Generación X | Marcos Íñigo |
+| Arkeyvata | Marcos Íñigo | 
 
 ## Departamento de BiBooks
 
