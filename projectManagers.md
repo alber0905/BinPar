@@ -71,12 +71,15 @@
   - **SATCOM Magic** - Marcos Íñigo
 
 ## BinPar
- - **Framework** - Miguel Rodríguez 
- - **Nueva Web** - Cristian Álvarez
- - **BinPar Tool** - Cristian Álvarez
- - **Backups** - Marcos González
- - **Sistemas** - Marcos González
- - **WebEmpresa** - Marcos Íñigo
+
+| Proyecto        | Jefe de Proyecto |
+| ------------- |-------------|
+| Framework | Miguel Rodríguez |
+| Nueva Web | Cristian Álvarez |
+| BinPar Tool | Cristian Álvarez |
+| Backups | Marcos González |
+| Sistemas | Marcos González |
+| WebEmpresa | Marcos Íñigo |
  
 ## Departamento de PostVenta
 
