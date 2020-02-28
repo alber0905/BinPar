@@ -66,9 +66,6 @@
 
 ## iUrisfy
  - Marcos González
- 
- ## Nautical
-  - **SATCOM Magic** - Marcos Íñigo
 
 ## BinPar
 
@@ -92,6 +89,7 @@
 | MSM | Marcos Íñigo | 
 | Generación X | Marcos Íñigo |
 | Arkeyvata | Marcos Íñigo | 
+| SATCOM Magic | Marcos Íñigo |
 
 ## Departamento de BiBooks
 
