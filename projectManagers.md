@@ -110,7 +110,7 @@
 | Olivarera | Esther Vega | Marcos Íñigo |
 | Sanborns | Esther Vega | Marcos Íñigo |
 | Edinumen | Esther Vega | Esther Vega |
-| Grupo A | Miguel Rodríguez | Miguel Rodríguez |
+| Grupo A | Esther Vega | Marcos Íñigo |
 | UNE | Marcos Íñigo | Marcos Íñigo |
 | Informa | Marcos Íñigo | Marcos Íñigo |
 | Piccin | Águeda Gámez | Águeda Gámez |
