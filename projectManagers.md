@@ -5,7 +5,7 @@
 ### Nuevos Desarrollos
  - **Nueva web** - Cristian Álvarez
  - **DF** - Miguel Rodríguez
- - **MiEureka** - Pendiente de reasignar
+ - **MiEureka** - Stefany Fernández
  - **Anatomía 3D** - Laura Miguelañez
  - **MegaSimulacro** - Verónica Celemín
  - **APP PostMIR** - Raquel Quispe
