@@ -3,24 +3,30 @@
 ## EMP (Editorial Médica Panamericana)
 
 ### Nuevos Desarrollos
- - **Nueva web** - Cristian Álvarez
- - **DF** - Miguel Rodríguez
- - **MiEureka** - Stefany Fernández
- - **Anatomía 3D** - Laura Miguelañez
- - **MegaSimulacro** - Verónica Celemín
- - **APP PostMIR** - Raquel Quispe
- - **APP Medicina de Urgencias**: Stefany Fernández
- - **EVA Formación** -  Miguel Rodríguez
- - **Acceso IP referido a EVA** - Verónica Celemín
- - **Doctor Q** - Stefany Fernández
+
+| Proyecto        | Jefe de Proyecto           | 
+| ------------- |-------------|
+| **Nueva web** | Cristian Álvarez |
+| **DF** | Miguel Rodríguez |
+| **MiEureka** | Stefany Fernández |
+| **Anatomía 3D** | Laura Miguelañez |
+| **MegaSimulacro** | Verónica Celemín |
+| **APP PostMIR** | Raquel Quispe |
+| **APP Medicina de Urgencias** | Stefany Fernández |
+| **EVA Formación** |  Miguel Rodríguez |
+| **Acceso IP referido a EVA** | Verónica Celemín |
+| **Doctor Q** | Stefany Fernández |
 
 ### Mantenimientos
-  - **Antigua web** - Águeda Gámez
-  - **BiBOOKS** - Águeda Gámez
-  - **Landings** - Águeda Gámez
-  - **PRM** - Nicolás Ariatnousos
-  - **PPD** - Nicolás Ariatnousos
-  - **CRM** - Nicolás Ariatnousos
+
+| Proyecto        | Jefe de Proyecto           | 
+| ------------- |-------------|
+| **Antigua web** | Águeda Gámez |
+| **BiBOOKS** | Águeda Gámez |
+| **Landings** | Águeda Gámez |
+| **PRM** | Nicolás Ariatnousos |
+| **PPD** | Nicolás Ariatnousos |
+| **CRM** | Nicolás Ariatnousos |
 
 ## HOCELOT
 - **WHITE** - Cristian Álvarez
