@@ -29,8 +29,11 @@
 | **CRM** | Nicolás Ariatnousos |
 
 ## HOCELOT
-- **WHITE** - Cristian Álvarez
-- **NOWO** - Cristian Álvarez
+
+| Proyecto        | Jefe de Proyecto           | 
+| ------------- |-------------|
+| **WHITE** | Cristian Álvarez |
+| **NOWO** | Cristian Álvarez |
 
 ## JTQ (Oro)
  - Pepe Segado
