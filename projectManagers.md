@@ -52,20 +52,11 @@
  - **Reale** - Marcos González
  - **Plus Ultra** - Marcos González
 
-## Reticulae
- - **Retool** - Cristian Álvarez
-
 ## Ad Server
- - Marcos González
-
-## AbuBambu
  - Marcos González
 
 ## Gala
  - Alberto Blanco
-
-## APSIS
- - Marcos González
  
 ## SEGO
  - Pendiente de reasignar
@@ -113,3 +104,12 @@
 | Informa | Marcos Íñigo | Marcos Íñigo |
 | Piccin | Águeda Gámez | Águeda Gámez |
 | BiBOOKS EMP | Águeda Gámez | Águeda Gámez |
+
+
+## Proyectos legacy
+
+| Proyecto        | Jefe de Proyecto |
+| ------------- |-------------|
+| APSIS | Marcos González |
+| Reticulae | Cristian Álvarez |
+| AbuBambu | Marcos González |
