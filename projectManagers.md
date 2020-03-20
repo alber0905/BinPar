@@ -104,7 +104,8 @@
 | Informa | Marcos Íñigo | Marcos Íñigo |
 | Piccin | Águeda Gámez | Águeda Gámez |
 | BiBOOKS EMP | Águeda Gámez | Águeda Gámez |
-
+| UPC | Esther Vega | Esther Vega |
+| Buscalibre | Beatríz Ortega | Beatríz Ortega |
 
 ## Proyectos legacy
 
