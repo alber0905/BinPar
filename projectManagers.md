@@ -46,7 +46,7 @@
  - Marcos Íñigo
 
 ## Axon
- - Cristian Álvarez
+ - Julián Querol
 
 ## Smart Discovery
  - **Reale** - Marcos González
