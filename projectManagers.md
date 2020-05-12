@@ -9,9 +9,9 @@
 | **Nueva web** | Cristian Álvarez |
 | **DF** | Miguel Rodríguez |
 | **MiEureka** | Stefany Fernández |
-| **Anatomía 3D** | Laura Miguelañez |
+| **Anatomía 3D** | Pendiente de reasignar |
 | **MegaSimulacro** | Verónica Celemín |
-| **APP PostMIR** | Raquel Quispe |
+| **APP PostMIR** | Pendiente de reasignar |
 | **APP Medicina de Urgencias** | Stefany Fernández |
 | **EVA Formación** |  Miguel Rodríguez |
 | **Acceso IP referido a EVA** | Verónica Celemín |
@@ -36,7 +36,7 @@
 | **NOWO** | Cristian Álvarez |
 
 ## JTQ (Oro)
- - Pepe Segado
+ - Pendiente de reasignar
 
 ## ART Madrid
  - **ART Madrid** - Marcos González
