@@ -36,7 +36,8 @@
 | **NOWO** | Cristian Álvarez |
 
 ## JTQ (Oro)
- - Pendiente de reasignar
+ - **Mantenimiento .net** - Marcos Íñigo
+ - **Nuevos módulos** - Pendiente de asignar 
 
 ## ART Madrid
  - **ART Madrid** - Marcos González
