@@ -107,6 +107,7 @@
 | BiBOOKS EMP | Águeda Gámez | Águeda Gámez |
 | UPC | Esther Vega | Esther Vega |
 | Buscalibre | Beatríz Ortega | Beatríz Ortega |
+| Justicia | Cristian Álvarez | Cristian Álvarez |
 
 ## Proyectos legacy
 
