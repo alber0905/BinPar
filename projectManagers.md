@@ -37,7 +37,7 @@
 
 ## JTQ (Oro)
  - **Mantenimiento .net** - Marcos Íñigo
- - **Nuevos módulos** - Pendiente de asignar 
+ - **Migración a nueva tecnología** - Beatríz Ortega 
 
 ## ART Madrid
  - **ART Madrid** - Marcos González
