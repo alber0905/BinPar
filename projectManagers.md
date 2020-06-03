@@ -83,7 +83,6 @@
 | NieveFX | Marcos Íñigo |
 | MSM | Marcos Íñigo | 
 | Generación X | Marcos Íñigo |
-| Arkeyvata | Marcos Íñigo | 
 | SATCOM Magic | Marcos Íñigo |
 
 ## Departamento de BiBooks
@@ -112,3 +111,5 @@
 | AbuBambu | Marcos González |
 | SEGO | Marcos Iñigo |
 | CEDRO | Marcos Iñigo |
+| Arkeyvata | Marcos Íñigo | 
+
