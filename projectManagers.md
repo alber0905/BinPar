@@ -58,13 +58,7 @@
 
 ## Gala
  - Alberto Blanco
- 
-## SEGO
- - Pendiente de reasignar
- 
- ## CEDRO
- - Pendiente de reasignar
-
+  
 ## iUrisfy
  - Marcos González
 
@@ -116,3 +110,5 @@
 | APSIS | Marcos González |
 | Reticulae | Cristian Álvarez |
 | AbuBambu | Marcos González |
+| SEGO | Marcos Iñigo |
+| CEDRO | Marcos Iñigo |
