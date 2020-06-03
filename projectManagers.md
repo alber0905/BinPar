@@ -92,7 +92,7 @@
 | Read Garden | Esther Vega | - |
 | Olivarera | Esther Vega | Marcos Íñigo |
 | Sanborns | Esther Vega | Marcos Íñigo |
-| Edinumen | Esther Vega | Esther Vega |
+| Edinumen | Esther Vega | Marcos Íñigo |
 | Grupo A | Esther Vega | Marcos Íñigo |
 | UNE | Marcos Íñigo | Marcos Íñigo |
 | Informa | Marcos Íñigo | Marcos Íñigo |
