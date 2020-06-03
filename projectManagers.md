@@ -101,6 +101,8 @@
 | UPC | Esther Vega | Esther Vega |
 | Buscalibre | Beatríz Ortega | Beatríz Ortega |
 | Justicia | Cristian Álvarez | Cristian Álvarez |
+| Penguin Random House | Alberto Blanco | Alberto Blanco |
+
 
 ## Proyectos legacy
 
